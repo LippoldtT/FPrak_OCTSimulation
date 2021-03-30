@@ -146,7 +146,7 @@ end
         z_1= 0.20+100*10^-6;                                                 %distance of the first 'mirror' (in the sample) from  the beamsplitter
         delta_z =50*10^-6;                                                  %distance to the next 'mirror'
         z_2=z_1+delta_z;                                                    %distance of the second 'mirror' (in the sample) from  the beamsplitter
-        z_d = 50*10^-6;                                                     %distance of the spectrometer which would 'capture' the simulated signal
+        z_d = 0.5;                                                     %distance of the spectrometer which would 'capture' the simulated signal
     %reflectivities
         r_r = 1;                                                            %refelctivity of the reference
         r_1 = 0.21;                                                         %reflectivity of z_1 (dirac shape of the sample lets us assume just one value at the specific distance)
